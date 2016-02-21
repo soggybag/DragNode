@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BAECA571C79975500E4D4C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAECA561C79975500E4D4C9 /* AppDelegate.swift */; };
+		7BAECA591C79975500E4D4C9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAECA581C79975500E4D4C9 /* art.scnassets */; };
+		7BAECA5B1C79975500E4D4C9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAECA5A1C79975500E4D4C9 /* GameViewController.swift */; };
+		7BAECA5E1C79975500E4D4C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAECA5C1C79975500E4D4C9 /* Main.storyboard */; };
+		7BAECA601C79975500E4D4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAECA5F1C79975500E4D4C9 /* Assets.xcassets */; };
+		7BAECA631C79975500E4D4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAECA611C79975500E4D4C9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BAECA531C79975500E4D4C9 /* DragNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAECA561C79975500E4D4C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BAECA581C79975500E4D4C9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		7BAECA5A1C79975500E4D4C9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7BAECA5D1C79975500E4D4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BAECA5F1C79975500E4D4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BAECA621C79975500E4D4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BAECA641C79975500E4D4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BAECA501C79975500E4D4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BAECA4A1C79975500E4D4C9 = {
+			isa = PBXGroup;
+			children = (
+				7BAECA551C79975500E4D4C9 /* DragNode */,
+				7BAECA541C79975500E4D4C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BAECA541C79975500E4D4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BAECA531C79975500E4D4C9 /* DragNode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BAECA551C79975500E4D4C9 /* DragNode */ = {
+			isa = PBXGroup;
+			children = (
+				7BAECA561C79975500E4D4C9 /* AppDelegate.swift */,
+				7BAECA581C79975500E4D4C9 /* art.scnassets */,
+				7BAECA5A1C79975500E4D4C9 /* GameViewController.swift */,
+				7BAECA5C1C79975500E4D4C9 /* Main.storyboard */,
+				7BAECA5F1C79975500E4D4C9 /* Assets.xcassets */,
+				7BAECA611C79975500E4D4C9 /* LaunchScreen.storyboard */,
+				7BAECA641C79975500E4D4C9 /* Info.plist */,
+			);
+			path = DragNode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BAECA521C79975500E4D4C9 /* DragNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAECA671C79975500E4D4C9 /* Build configuration list for PBXNativeTarget "DragNode" */;
+			buildPhases = (
+				7BAECA4F1C79975500E4D4C9 /* Sources */,
+				7BAECA501C79975500E4D4C9 /* Frameworks */,
+				7BAECA511C79975500E4D4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragNode;
+			productName = DragNode;
+			productReference = 7BAECA531C79975500E4D4C9 /* DragNode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BAECA4B1C79975500E4D4C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "mitchell hudson";
+				TargetAttributes = {
+					7BAECA521C79975500E4D4C9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7BAECA4E1C79975500E4D4C9 /* Build configuration list for PBXProject "DragNode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BAECA4A1C79975500E4D4C9;
+			productRefGroup = 7BAECA541C79975500E4D4C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BAECA521C79975500E4D4C9 /* DragNode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BAECA511C79975500E4D4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAECA591C79975500E4D4C9 /* art.scnassets in Resources */,
+				7BAECA631C79975500E4D4C9 /* LaunchScreen.storyboard in Resources */,
+				7BAECA601C79975500E4D4C9 /* Assets.xcassets in Resources */,
+				7BAECA5E1C79975500E4D4C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BAECA4F1C79975500E4D4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAECA5B1C79975500E4D4C9 /* GameViewController.swift in Sources */,
+				7BAECA571C79975500E4D4C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BAECA5C1C79975500E4D4C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAECA5D1C79975500E4D4C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BAECA611C79975500E4D4C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAECA621C79975500E4D4C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BAECA651C79975500E4D4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BAECA661C79975500E4D4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BAECA681C79975500E4D4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragNode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdevils.DragNode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BAECA691C79975500E4D4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragNode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.webdevils.DragNode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BAECA4E1C79975500E4D4C9 /* Build configuration list for PBXProject "DragNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAECA651C79975500E4D4C9 /* Debug */,
+				7BAECA661C79975500E4D4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAECA671C79975500E4D4C9 /* Build configuration list for PBXNativeTarget "DragNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAECA681C79975500E4D4C9 /* Debug */,
+				7BAECA691C79975500E4D4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BAECA4B1C79975500E4D4C9 /* Project object */;
+}
